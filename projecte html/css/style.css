@@ -108,3 +108,10 @@ h1 {
     background-color: #087f9b;
     margin: 100px;
 }
+
+.vacios {
+    background-color: #ff0000;
+}
+.center{
+    text-align: center;
+}
