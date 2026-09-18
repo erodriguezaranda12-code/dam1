@@ -14,6 +14,12 @@ h1 {
     margin-bottom: 25px;
 }
 
+.color {
+    font-size: 28px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
 .horario {
     width: 100%;
     max-width: 1100px;
@@ -47,7 +53,7 @@ h1 {
     vertical-align: middle;
 }
 
-/* COLORES */
+
 
 .marron {
     background-color: #654b4b;
@@ -85,17 +91,20 @@ h1 {
     background-color: #222222;
 }
 
-/* SEPARACIÓN DEL DESCANSO */
+
 
 .separador th,
 .separador td {
     border-top: 0;
 }
 
-/* TEXTO */
 
 .horario b {
     font-weight: bold;
 }
 
 
+.color {
+    background-color: #087f9b;
+    margin: 100px;
+}
