@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: #202020;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.horario {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.horario th,
+.horario td {
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px;
+}
+
+.horario thead th {
+    background-color: #333333;
+    height: 55px;
+    font-size: 17px;
+}
+
+.horario tbody th {
+    background-color: #222222;
+    width: 120px;
+    font-weight: normal;
+}
+
+.horario td {
+    height: 90px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+/* COLORES */
+
+.marron {
+    background-color: #654b4b;
+}
+
+.verde-amarillo {
+    background-color: #5d6500;
+}
+
+.azul {
+    background-color: #07586a;
+}
+
+.verde {
+    background-color: #006b0b;
+}
+
+.azul-claro {
+    background-color: #087f9b;
+}
+
+.morado {
+    background-color: #67466b;
+}
+
+.turquesa {
+    background-color: #007d83;
+}
+
+.verde-oscuro {
+    background-color: #006b08;
+}
+
+.vacio {
+    background-color: #222222;
+}
+
+/* SEPARACIÓN DEL DESCANSO */
+
+.separador th,
+.separador td {
+    border-top: 0;
+}
+
+/* TEXTO */
+
+.horario b {
+    font-weight: bold;
+}
+
+
